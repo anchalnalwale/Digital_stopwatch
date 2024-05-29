@@ -1,0 +1,80 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: rgb(251, 240, 220);
+    color: #111;
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    height:300px;
+    margin-top: 10%;
+    border:3px solid black;
+    padding:4cqh;
+    border-radius: 30px;
+}
+
+
+.display{
+    background: white;
+    height:120px;
+    display: flex;
+    color: #111;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.6rem;
+    border-radius:30px;
+    padding:20px;
+    box-shadow: rgba(113, 193, 253, 0.24) 8px 8px 8px;
+}
+
+
+.buttons{
+    margin:20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    outline: none;
+}
+
+
+#bt1 , #bt2 , #bt3{
+    height:60px;
+    width:120px;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifv;
+    margin:10px;
+}
+
+
+#bt1:hover , #bt2:hover, #bt3:hover{
+    box-shadow:  0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+
+#bt1{
+    background: rgb(93, 252, 93);
+}
+
+
+#bt2{
+    background: rgb(251, 158, 158);
+}
+
+
+#bt3{
+    background: rgb(247, 195, 100);
+}
